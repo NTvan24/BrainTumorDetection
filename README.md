@@ -18,11 +18,11 @@ pip install matplotlib scikit-learn tensorflow torch numpy
 
 Hoặc nếu muốn cài đặt từng thư viện riêng lẻ:
 ```bash
-pip install matplotlib  # Vẽ biểu đồ
-pip install scikit-learn  # Hỗ trợ chia dữ liệu và ML
-pip install tensorflow  # Deep Learning
-pip install torch  # PyTorch
-pip install numpy  # Xử lý ma trận, tensor
+pip install matplotlib 
+pip install scikit-learn  
+pip install tensorflow  
+pip install torch  
+pip install numpy  
 ```
 
 ## Kiểm tra cài đặt
@@ -42,9 +42,11 @@ Nếu không có lỗi nào xuất hiện, bạn đã sẵn sàng để chạy d
 
 ---
 
-🚀 **Tiếp theo:** Chạy mô hình bằng lệnh:
-```bash
-python train.py
+🚀 **Tiếp theo:** Chạy mô hình bằng cách chuyển file ảnh vào folder và sửa tên ảnh ở biến img run file test.py :
+```python
+#Ảnh nên đặt cùng folder cho đơn giản
+img = "normaltest.jpeg" #Tên file ảnh ở đây
+preAndShow(img)
 ```
 
 
