@@ -42,7 +42,7 @@ Nếu không có lỗi nào xuất hiện, bạn đã sẵn sàng để chạy d
 
 ---
 
-🚀 **Tiếp theo:** Chạy mô hình bằng cách chuyển file ảnh vào folder và sửa tên ảnh ở biến img run file test.py :
+🚀 **Tiếp theo:** Chạy mô hình bằng cách chuyển file ảnh vào folder và sửa tên ảnh ở biến img và run file test.py :
 ```python
 #Ảnh nên đặt cùng folder cho đơn giản
 img = "normaltest.jpeg" #Tên file ảnh ở đây
